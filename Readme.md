@@ -94,6 +94,15 @@ http://localhost:8501/
 3. Click **"Load Knowledge Base"**.
 4. Once you see the message **"Knowledge Base Loaded Successfully!"**, you can start asking questions. 🎉
 
+## Screenshots
+
+![Screenshot 2025-03-01 125025](https://github.com/user-attachments/assets/b11523bf-e020-411e-9ea2-6e1e5b522d9a)
+
+
+![Screenshot 2025-03-01 125213](https://github.com/user-attachments/assets/0365dc00-7dbe-407d-84d2-5324915be8f4)
+
+
+
 ## 🛠️ Troubleshooting
 - ⚠️ If you get an error about mismatched vector dimensions, ensure that the **embedding dimension in PostgreSQL matches the sentence transformer (1024)**.
 - 🛑 If OpenAI is still being used, check that your Python script is correctly configured to use **sentence transformers instead of OpenAI embeddings**.
